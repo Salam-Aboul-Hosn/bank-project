@@ -1,9 +1,10 @@
-import React from 'react'
+import styles from '../style';
+import Button from './Button';
 
-const CTA = () => {
-  return (
-    <div>CTA</div>
-  )
-}
+const CTA = () => (
+  <section
+    className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
+  ></section>
+);
 
-export default CTA
+export default CTA;
